@@ -37,6 +37,6 @@ for i in range (4):
     tk.Label(f, text="Year " + str (i+1), justify = tk.LEFT, padx = 20).grid(row=i, column=0)
     for language, val in languages:
         tk.Radiobutton(f, text=language, padx = 20, variable=v, command=ShowChoice,
-                    value=val).grid(row = i, column=val)
+                    value=val).grid(row = i, column=val+1)
 
 root.mainloop()

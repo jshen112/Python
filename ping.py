@@ -132,6 +132,7 @@ def playGame(x,y):
                 rightpaddledown()
             if ball.ycor() > rightpaddle.ycor() + 45:
                 rightpaddleup()
+        window.delay(300)
 
 FONT = ('Arial', 20, 'bold')
 
